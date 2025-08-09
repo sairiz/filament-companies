@@ -12,7 +12,7 @@
     <form wire:submit="authenticate">
         {{ $this->form }}
 
-        <x-filament-schemas::form.actions
+        <x-filament-schemas::actions
             :actions="$this->getCachedFormActions()"
             :full-width="$this->hasFullWidthFormActions()"
         />
